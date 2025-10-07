@@ -1,10 +1,10 @@
 def saudacao(hora):
     if (hora < 12):
-        print('Bom dia!')
+        print('Bom dia!!!')
     elif (hora >= 12 and hora < 18):
-        print('Boa tarde!')
+        print('Boa tarde!!!')
     else:
-        print('Boa noite!')
+        print('Boa noite!!!')
 
 def main():
     hora = int(input('Digite a hora atual (0-23): '))
