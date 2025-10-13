@@ -10,7 +10,7 @@ def main():
         print(f'Valor da gorjeta: R$ {valor_da_gorjeta}')
         print(f'Total a pagar: R$ {valor_da_conta + valor_da_gorjeta}')
     except ValueError:
-        print('ERRO: Digite apenas números válidos!!!')
+        print('ERRO: Digite apenas números válidos!!!!')
 
 if __name__ == '__main__':
     main()
